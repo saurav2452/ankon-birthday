@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+input:focus {
+  outline: none;
+}
+
+/* resetting end */
+
+/* body-section-start */
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
+  text-align: center;
+  width: 100%;
+}
+
+.head h1 {
+  font-size: 100px;
+  margin: 30px auto 20px;
+  color: rgb(138, 0, 143);
+  /* box-shadow: 1px 1px 10px black; */
+}
+.head h2 {
+  font-size: 45px;
+  color: rgb(180, 10, 61);
+  padding: 20px 0px;
+  font-weight: 900;
+}
+.head h3 {
+  font-size: 40px;
+  padding: 20px 0px;
+  color: rgb(0, 13, 190);
+  font-weight: 900;
+}
+.click {
+  width: 300px;
+  height: 100px;
+  margin: 0px auto 0px;
+  display: block;
+  text-align: center;
+  margin-top: 230px;
+}
+.click a {
+  font-size: 23px;
+  border: 1px solid gray;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  background-color: rgb(42, 73, 212);
+  border-radius: 9px;
+  color: revert;
+  transition: 0.4s;
+  color: black;
+}
+.click a:hover {
+  color: blue;
+  background-color: skyblue;
+}
+
+.kobita {
+  width: 275px;
+  height: 500px;
+  position: absolute;
+  top: 64px;
+  left: 91px;
+}
+.kobita p {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  text-align: center;
+  line-height: 23px;
+}
+/* body-section_end */
