@@ -30,7 +30,7 @@ body {
   text-align: center;
   box-shadow: 2px 2px 17px white;
 }
-.container .video_sec video {
+.container .video_sec iframe {
   width: 650px;
   height: 400px;
   margin-top: 20px;
